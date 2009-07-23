@@ -1,0 +1,26 @@
+2009-07-23  Ray Wang  <raywang@gnome.org>
+
+	* Bump to 0.2.0:
+	  - use SQLite backend.
+	  - use GtkBuilder to build the UI.
+	  - use autotool to mange source code.
+
+2008-11-09  Ray Wang  <raywang@gnome.org>
+
+	* src/daily-notes.py: add icons of "Save" and "Quit" buttons.
+
+2008-10-31  Ray Wang  <raywang@gnome.org>
+
+	* make "python setup.py install" could install po files in certain
+	location, and "daily-notes.py" to $prefix/bin/
+
+2008-10-26  Ray Wang  <raywang@gnome.org>
+
+	* add dbus notification support
+	* add icons directory for future icon use.
+	* add po/LINGUAS, po/ChangeLog, po/README, po/POTFILES.skip files to 
+	more standard to intltool
+
+2008-09-26  Ray Wang  <raywang@gnome.org>
+
+	* initial 0.1.1 package

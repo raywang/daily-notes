@@ -1,0 +1,6 @@
+1. make gtk.Entry multi-line
+2. make it as applet
+done 3. make it installable (e.g. setup.py)
+done 4. use D-Bus to notify if today has notes when launch the program.
+done 5. use SQLite backend
+done 6. use GtkBuilder to build the UI
