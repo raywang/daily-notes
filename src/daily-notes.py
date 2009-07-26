@@ -37,9 +37,9 @@ import os
 import sys
 import time
 import dbus
-import gtk
 import sqlite3
 import gettext
+import gtk
 import pygtk
 pygtk.require('2.0')
 
