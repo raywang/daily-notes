@@ -51,7 +51,7 @@ _ = gettext.gettext
 
 # the file which log the daily notes
 db_file = os.getenv('HOME') + "/.daily_notes.sqlite"
-ui_file = os.path.join(sys.path[0], "../data/daily-notes.ui")
+ui_file = os.path.join(sys.path[0], "..", "share", app_name, "daily-notes.ui")
 
 # Class
 class Daily_notes:
@@ -75,7 +75,6 @@ class Daily_notes:
         self.entry = self.ui.get_object("entry")
 
         # connect signals
-        #window.connect("delete_event", self.delete_event)
         window.connect("destroy", lambda x: gtk.main_quit())
         quit_button.connect("clicked", lambda x: gtk.main_quit())
         about_button.connect("clicked", self.show_about)
@@ -229,7 +228,7 @@ class Daily_notes:
         # (STRING app_name, UINT32 replaces_id, STRING app_icon, 
         #  STRING summary, STRING body, ARRAY actions, DICT hints, 
         # INT32 expire_timeout);
-        self.notify_interface.Notify(_('daily-notes'), 
+        self.notify_interface.Notify(_("daily-notes"), 
                 0, 
                 self.icon_prefix + app_name + ".svg", 
                 notify_title, 

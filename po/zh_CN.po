@@ -1,0 +1,58 @@
+# daily-notes
+# Copyright (C) 2009, Ray Wang <raywang@gnome.org>
+# This file is distributed under the same license as the daily-notes package.
+# Ray Wang <raywang@gnome.org>, 2009.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: daily-notes 0.2.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2009-07-26 23:13+0800\n"
+"PO-Revision-Date: 2009-07-27 17:54+0800\n"
+"Last-Translator: Ray Wang <raywang@gnome.org>\n"
+"Language-Team: Chinese (Simplified) <i18n-zh@googlegroups.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: utf-8\n"
+
+#: ../src/daily-notes.py:134
+msgid "You have a notes today!"
+msgstr "你今天有一条备注!"
+
+#: ../src/daily-notes.py:144
+msgid "New note saved!"
+msgstr "新备注已保存!"
+
+#. http://www.galago-project.org/specs/notification/0.9/index.html
+#. UINT32 org.freedesktop.Notifications.Notify
+#. (STRING app_name, UINT32 replaces_id, STRING app_icon,
+#. STRING summary, STRING body, ARRAY actions, DICT hints,
+#. INT32 expire_timeout);
+#: ../src/daily-notes.py:232
+msgid "daily-notes"
+msgstr "每日备注"
+
+#: ../data/daily-notes.ui.h:1
+msgid "<b>Calendar</b>"
+msgstr "<b>日历</b>"
+
+#: ../data/daily-notes.ui.h:2
+msgid "<b>Your Notes</b>"
+msgstr "<b>你的备注</b>"
+
+#: ../data/daily-notes.ui.h:3
+msgid "Copyright &#xA9; 2009 Ray Wang"
+msgstr ""
+
+#: ../data/daily-notes.ui.h:4
+msgid "Home Page"
+msgstr "主页"
+
+#: ../data/daily-notes.ui.h:5
+msgid "Ray Wang <raywang@gnome.org>"
+msgstr ""
+
+#: ../data/daily-notes.ui.h:6
+msgid "make your notes everyday"
+msgstr "每天都做备注"
