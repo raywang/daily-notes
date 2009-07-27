@@ -91,12 +91,11 @@
             <property name="layout_style">end</property>
             <child>
               <object class="GtkButton" id="About">
-                <property name="label" translatable="yes">gtk-about</property>
+                <property name="label">gtk-about</property>
                 <property name="visible">True</property>
                 <property name="can_focus">True</property>
                 <property name="receives_default">True</property>
                 <property name="use_stock">True</property>
-                <property name="yalign">0.52999997138977051</property>
               </object>
               <packing>
                 <property name="expand">False</property>
@@ -106,17 +105,11 @@
             </child>
             <child>
               <object class="GtkButton" id="Save">
-                <property name="label" translatable="yes">gtk-save</property>
+                <property name="label">gtk-save</property>
                 <property name="visible">True</property>
                 <property name="can_focus">True</property>
                 <property name="receives_default">True</property>
                 <property name="use_stock">True</property>
-                <child internal-child="accessible">
-                  <object class="AtkObject" id="Save-atkobject">
-                    <property name="AtkObject::accessible-name" translatable="yes">Save</property>
-                    <property name="AtkObject::accessible-description" translatable="yes">Save Button</property>
-                  </object>
-                </child>
               </object>
               <packing>
                 <property name="expand">False</property>
@@ -126,17 +119,11 @@
             </child>
             <child>
               <object class="GtkButton" id="Quit">
-                <property name="label" translatable="yes">gtk-quit</property>
+                <property name="label">gtk-quit</property>
                 <property name="visible">True</property>
                 <property name="can_focus">True</property>
                 <property name="receives_default">True</property>
                 <property name="use_stock">True</property>
-                <child internal-child="accessible">
-                  <object class="AtkObject" id="Quit-atkobject">
-                    <property name="AtkObject::accessible-name" translatable="yes">Quit</property>
-                    <property name="AtkObject::accessible-description" translatable="yes">Quit Button</property>
-                  </object>
-                </child>
               </object>
               <packing>
                 <property name="expand">False</property>
@@ -162,7 +149,7 @@
     <property name="comments" translatable="yes">make your notes everyday</property>
     <property name="website">http://github.org/raywang</property>
     <property name="website_label" translatable="yes">Home Page</property>
-    <property name="license" translatable="yes" context="This is a GPLv3 License" comments="This is a GPLv3 License, translator should know this">                    GNU GENERAL PUBLIC LICENSE
+    <property name="license" translatable="no" context="This is a GPLv3 License" comments="This is a GPLv3 License, translator should know this">                    GNU GENERAL PUBLIC LICENSE
                        Version 3, 29 June 2007
 
  Copyright (C) 2007 Free Software Foundation, Inc. &lt;http://fsf.org/&gt;

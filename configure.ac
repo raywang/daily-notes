@@ -16,20 +16,28 @@ IT_PROG_INTLTOOL([0.40])
 #	  AC_MSG_ERROR(you need to have pkgconfig installed !)
 #fi
 
+####################
+# i18n
+####################
+GETTEXT_PACKAGE=daily-notes
+AC_SUBST(GETTEXT_PACKAGE)
+AC_DEFINE_UNQUOTED(GETTEXT_PACKAGE, "$GETTEXT_PACKAGE", [Gettext package])
 
 ####################
 # Python
 ####################
 AM_PATH_PYTHON(2.4)
-AM_CHECK_PYGTK(2.0,,[AC_MSG_ERROR(Could not find pygtk 2.0)])
-AM_CHECK_PYMOD(gettext,,,[AC_MSG_ERROR(Could not find python module gettext)])
-AM_CHECK_PYMOD(sqlite3,,,[AC_MSG_ERROR(Could not find python module gettext)])
-AM_CHECK_PYMOD(dbus,,,[AC_MSG_ERROR(Could not find python module gettext)])
+#AM_CHECK_PYGTK(2.0,,[AC_MSG_ERROR(Could not find pygtk 2.0)])
+#AM_CHECK_PYMOD(gettext,,,[AC_MSG_ERROR(Could not find python module gettext)])
+#AM_CHECK_PYMOD(sqlite3,,,[AC_MSG_ERROR(Could not find python module gettext)])
+#AM_CHECK_PYMOD(dbus,,,[AC_MSG_ERROR(Could not find python module gettext)])
 
 ####################
 # Output
 ####################
 AC_CONFIG_FILES([Makefile
+                 src/Makefile
+                 data/Makefile
                  po/Makefile.in])
 
 AC_OUTPUT
