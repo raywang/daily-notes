@@ -35,7 +35,9 @@ AM_PATH_PYTHON(2.4)
 ####################
 # Output
 ####################
+AC_CONFIG_SRCDIR(src/daily-notes.in)
 AC_CONFIG_FILES([Makefile
+                 src/daily-notes
                  src/Makefile
                  data/Makefile
                  po/Makefile.in])

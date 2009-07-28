@@ -29,9 +29,6 @@ Although, this program is immature and unprofessional, it just could be
 looked as a small practice on my programming road. 
 """
 
-__author__ = "Ray Wang"
-__version__ = "0.2.0"
-
 # imports
 import os
 import sys
