@@ -95,7 +95,13 @@ class Daily_notes:
     def show_about(self, widget):
         """show about dialog"""
         about_dialog = self.ui.get_object("aboutdialog")
-        about_dialog.show_all()
+        about_dialog.present()
+        about_dialog.connect('response', self.do_response)
+
+    def do_response(self, dialog, response):
+        """cancel about dialog"""
+        if response == gtk.RESPONSE_CANCEL:
+            dialog.hide()
 
     def init_db(self, db_file):
         """initialize sqlite backend"""
